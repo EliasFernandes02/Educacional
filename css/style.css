@@ -103,6 +103,14 @@ section{
     color: var(--green);
 }
 
+.heading{
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+    
+}
+
 #menu-btn{
     cursor: pointer;
     color: var(--white);
@@ -186,6 +194,126 @@ section{
     color: var(--light-white);
 }
 
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+
+
+}
+
+.about .row .image {
+    flex: 1 1 20rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content{
+    text-align: center;
+    flex: 1 1 25rem;
+}
+
+.about .row .content h3{
+    font-size: 1.3rem;
+    color: var(--white);
+}
+
+.about .row .content p{
+    padding: 1rem 0;
+    line-height: 2;
+    font-size: 1.0rem;
+    color: var(--light-white);
+}
+
+
+
+.courses  span{
+    color: var(--green);
+}
+
+.courses .slide{
+    width: 30rem;
+    background-color: var(--light-bg);
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.courses .slide img{
+    height: 25rem;
+    width: 100%;
+}
+
+.courses .slide h3{
+
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--white);
+
+
+}
+
+.courses .slide p{
+    line-height: 2;
+    font-size: 1rem;
+    color:var(--light-white);
+}
+
+
+.teachers .slide{
+    position: relative;
+    width: 30rem;
+    overflow: hidden;
+    margin-bottom: 4rem;    
+}
+
+.teachers .slide img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.teachers .slide  h3{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-left: 10rem;
+}
+
+.teachers .slide .share{
+    position: absolute;
+    top: 1rem; left: -10rem;
+
+}
+
+.teachers .slide:hover .share{
+    left: 2rem;
+}
+
+.teachers .slide .share a{
+    display: block;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.teachers .slide .share a:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
 
 
 
@@ -237,6 +365,14 @@ section{
     html{
         font-size: 50%;
        
+    }
+
+    .home .row .content h3{
+        font-size: 4rem;
+    }
+
+    .heading{
+        font-size: 4rem;
     }
 
 }
