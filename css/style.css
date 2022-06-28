@@ -316,6 +316,131 @@ section{
 }
 
 
+.review .review-slider{
+    padding-bottom: 2rem;
+}
+
+.review .box{
+    padding:2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0, 0.1);
+    border-radius: 0.5rem;
+
+}
+.review .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+.review .box h4{
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.review .box p{
+    color:var(--white);
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.review .box .stars i{
+    color: var(--green);
+    font-size: 1.5rem;
+}
+
+.review .heading{
+    text-align: center;
+    padding: 2.5rem;
+    
+
+}
+
+.review .heading span{
+    font-size: 2.5rem;
+    color: var(--orange);
+    padding: 0.1rem
+    
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+}
+
+.contact .row .image{
+    flex: 1 1 25rem;
+
+}
+
+.contact .row .image img{
+    width: 80%;
+}
+
+.contact .row form .box{
+    width:50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+    font-size: 0.7rem;
+    color: var(--white);
+    padding: 1rem;
+    
+}
+
+.contact .row form span{
+    font-size: 1rem;
+}
+
+.contact .row form .radio{
+    margin-top: 1rem;
+}
+
+.contact .row form .radio label{
+    font-size: 1rem;
+    color: var(--white);
+    margin-left: 0.5rem;
+}
+
+.contact .row form .radio #female{
+    margin-left: 2rem;
+}
+
+.contact .row form .radio input{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: var(--white);
+    cursor: pointer;
+
+}
+
+.contact .row form .radio input:checked{
+    background-color: var(--green);
+    border-radius: 0.5rem;
+}
+
+.contact .row form .radio #female:checked ~ label[for="female"]{
+    color: var(--green);
+}
+
+.contact .row form .radio #male:checked ~ label[for="male"]{
+    color: var(--green);
+}
+
+
+
+
+
+
+
 
 @media(max-width:991px){
     html{
